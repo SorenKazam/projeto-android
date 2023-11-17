@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "android";
+    src: url("fontes/idroid.otf") format("opentype");
+}
+
+:root {
+    --corPrincipal: rgb(46, 111, 155);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #84e1ad;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin: 0px;
+    background-image: linear-gradient(to top, #1A5C38, #3CD983);
+    padding: 10px;
+    box-shadow: 0px 5px 5px #0000004d;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+main {
+    background-color: white;
+    color: black;
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 2px 2px 5px black;
+}
+
+main > h2 {
+    font-family: android, sans-serif;
+    color: #1A5C38;
+}
+
+main > h3 {
+    font-family: android, sans-serif;
+    color: #1A5C38;
+    background-image: linear-gradient(to right, #c5ebd6, white);
+    text-indent: 10px;
+}
+
+main > p {
+    color: black;
+    text-indent: 20px;
+}
+
+p > a {
+    color: #1A5C38;
+    text-decoration: none;
+}
+
+p > a:hover {
+    text-decoration: underline;
+}
+
+p > a::after {
+    content: "🔗";
+}
+
+main > picture {
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.contentor-video {
+    padding: 20px;
+    background-color: #1a5c38;
+    text-align: center;
+}
+
+.extra {
+    background-color: #c5ebd6;
+    box-shadow: 2px 2px 5px black;
+    padding: 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+.titulo-cheio {
+    background-color: #2fa866;
+    color: white;
+    margin-top: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    padding: 15px;
+}
+
+footer {
+    background-color: #1a5c38;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
