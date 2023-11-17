@@ -32,22 +32,30 @@ header > p {
     margin-bottom: 40px;
 }
 
+nav {
+    gap: 10px;
+    text-align: center;
+}
+
 nav > a {
     color: white;
     text-decoration: none;
-    margin-right: 20px;
+    margin: 20px;
     font-weight: normal;
 }
 
 nav > a:hover {
-    text-decoration: underline;
     font-weight: bolder;
+    background-color: #84e1ad;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 main {
     background-color: white;
     color: black;
-    width: 70%;
+    max-width: 900px;
     padding: 20px;
     margin: auto;
     border-radius: 0px 0px 5px 5px;
@@ -89,6 +97,11 @@ main > picture {
     width: 100%;
     margin: auto;
     text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .contentor-video {
