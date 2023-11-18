@@ -37,14 +37,14 @@ nav {
     text-align: center;
 }
 
-nav > a {
+.linkNavegacao {
     color: white;
     text-decoration: none;
     margin: 20px;
     font-weight: normal;
 }
 
-nav > a:hover {
+.linkNavegacao:hover {
     font-weight: bolder;
     background-color: #84e1ad;
     color: black;
@@ -79,16 +79,16 @@ main > p {
     text-indent: 20px;
 }
 
-p > a {
+.link {
     color: #1A5C38;
     text-decoration: none;
 }
 
-p > a:hover {
+.link:hover {
     text-decoration: underline;
 }
 
-p > a::after {
+.link::after {
     content: "🔗";
 }
 
@@ -130,9 +130,13 @@ img {
 }
 
 footer {
-    background-color: #1a5c38;
-    color: white;
+    background-color: #c5ebd6;
+    color: black;
     text-align: center;
     margin-top: 20px;
     padding: 10px;
+}
+
+abbr {
+    display: inline-block;
 }
